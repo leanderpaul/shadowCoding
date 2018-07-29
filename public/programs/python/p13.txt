@@ -1,0 +1,11 @@
+n = int(input("Enter the Number : "))
+n1 = 0
+n2 = 1
+count = 0
+print("The fibonacci series is :")
+while (count<n):
+    f = n1+n2
+    n1 = n2
+    n2 = f
+    count = count+1
+    print(f,end=",") #To print in a single row end is used

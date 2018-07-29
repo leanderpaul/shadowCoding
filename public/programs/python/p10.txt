@@ -1,0 +1,20 @@
+def Switch(ch):
+    switcher = {
+        1: " Sunday ",
+        2: " Monday ",
+        3: " Tuesday ",
+        4: " Wednesday ",
+        5: " Thursday ",
+        6: " Friday ",
+        7: " Saturday ",
+        
+    }
+    return switcher.get(ch, "nothing")
+
+
+if __name__ == "__main__":
+    ch = int(input("Enter the value(0-7): "))
+    if(ch<=7):
+        print (Switch(ch))
+    else :
+        print("Invalid Input")

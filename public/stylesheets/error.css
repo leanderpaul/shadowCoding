@@ -1,0 +1,87 @@
+#imgsk
+{
+ position: fixed;
+ top: 0px;
+ left: 50px;
+ width: 20%;
+ background-color: ffffff
+}
+*{
+	box-sizing: border-box;
+ }
+.menu
+{
+ width: 100%;
+ z-index:99;
+ position: fixed;
+ background-color:black;
+ height: 80px;
+}
+.example
+{
+ background-image: url(hi.jpg);
+ background-repeat: none;
+ background-size: cover;
+ height: 70vh;
+ border: 2px solid black;
+ width: 1300px;
+}
+form-example input[type=text]
+{
+ padding:10px;
+ font-size: 17px;
+ border:1px solid grey;
+ float:left;
+ width:80%;
+ background-color: ffffff;
+}
+form.example button
+{
+ float: left;
+ width:20%;
+ padding:10px;
+ background:#2196F3;
+ color:white;
+ font-size :17px;
+ border:1px solid grey;
+ border-left:none;
+ cursor:pointer;
+}
+form.example button:hover
+{
+ background: #0b7dda;
+}
+form.example::after
+{
+ content:"";
+ clear:both;
+ display:table;
+}
+.cards
+{
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ z-index:99;
+ width: 700px;
+ height:500px;
+}
+.cards:hover
+{
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+hr.style14
+{
+ border: 0;
+ height: 1px;
+ background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+body
+{
+ background-color: black;
+}
+

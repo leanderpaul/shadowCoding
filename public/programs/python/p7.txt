@@ -1,0 +1,3 @@
+from decimal import Decimal
+a = Decimal(input('Enter any Double Value : '))
+print(a)

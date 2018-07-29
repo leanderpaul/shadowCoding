@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+
+    <meta charset="utf-8">
+    <meta name = "description" content = "Free Basic Programs">
+    <meta name = "keywords" content = "C,C++,Python,Java">
+    <meta name = "author" content = "M.V.Sowndapan">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/materialize.min.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+        
+    <title>Home | Shadow Kingdom</title>
+		<link rel="icon" type="image/png" href="/images/timg.png">
+	
+	</head>
+
+	<body>
+			
+      <section class = "menu" >
+			  <img id="imgsk" src="/images/name.png">	
+		  </section>
+
+      <center>
+        <section class="cards" style="background-color: #212121;position: fixed;top: 55px;width: 100%;height: 40px;padding-left: 30px;border:groove;border-width: 1px">
+           <a href = "/"><button class="btn-small" style = "width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">HOME</button></a>
+           <a href = "/library"><button class="btn-small" style = "width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">LIBRARY</button></a>
+           <a href = "/aboutus"><button class="btn-small" style = "width:100px;height:36px;background-color:#212121;border:none;color:white;font-size: 13px;">ABOUT US</button></a>
+        </section>
+      </center>
+
+	  	<center>
+		  	<center style = "padding-top: 150px;">
+          <form class = "example row" style="padding-left: 200px;padding-top: 50px;">
+            <input class="col" style="width: 800px;border-style:outset;background-color: white;" type = "text" placeholder="   Search..."/>
+            <button class="btn-small" style = "width:100px;height:48px;background-color:black;"> Search</button>
+          </form>
+        </center>	     	
+      </center>
+
+<!-- Jquery -->
+      <center>
+        <div class = "card">
+
+          <div class = "card1" style = "padding-top: 40px;">
+            <img src = "/images/left.png" style = "width:70%;">
+            <div class = "container" >
+              <h4 style = "color: white;">"Data Rules"</h4>
+            </div>
+          </div>
+
+          <div class = "card3" style = "padding-top: 40px;" >
+            <img src = "/images/right.png" style = "width:70%;">
+            <div class = "container" >
+              <h4 style = "color: white;">"Info is wealth"</h4>
+            </div>
+          </div>
+
+          <div class = "card2">
+            <center >
+             <div class="carousel products">
+              <a class="carousel-item" href="#two!"><img src="/images/1.png"></a>
+              <a class="carousel-item" href="#three!"><img src="/images/2.png"></a>
+              <a class="carousel-item" href="#four!"><img src="/images/3.png"></a>
+              <a class="carousel-item" href="#five!"><img src="/images/4.png"></a>
+              <a class="carousel-item" href="#five!"><img src="/images/5.png"></a>
+             </div>
+            </center>
+          </div>
+
+        </div>
+      </center>
+
+ 
+      <script src = "/javascripts/jquery.js"></script>
+      <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+      <script src="/javascripts/materialize.min.js"></script>
+
+      <script>
+        $(document).ready(function ()
+         {
+          carousel = $('.products').carousel();
+          repeat();
+        });
+
+        function repeat() 
+        {
+         setTimeout( () => 
+         {
+            carousel.carousel('next'); 
+         repeat(); 
+         }, 1500)
+        }
+      </script>
+ 
+      <center>
+      	<br>
+      	<br>
+        <div id = "wrap">
+
+		  	  <div class = "left">
+		  	  	<div style = "font-size: 20px;color:white;float:left;font-style: bold;padding-top: 5px;padding-left:10px;"> #Latest Question </div>
+			    	<center style = "padding-top:35px;"><hr class="style14"></center>
+            <center>
+             <div class = "question">
+               <h5>question 1</h5>
+             </div>
+            </center>
+          </div>
+
+			    <div class = "right">
+			  	  <div style = "font-size: 20px;color:white;float:left;font-style: bold;padding-top: 5px;padding-left:10px;">  #Frequently Viewed </div>
+			    	<center style = "padding-top:35px;"><hr class="style14"></center>
+            <center>
+             <div class = "question">
+               <h5>question 1</h5>
+             </div>
+            </center>
+			    </div>
+
+        </div>
+      </center>
+
+      <br>
+      <div style = "width:100%;background-color:darkslategrey;">
+      <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <center>
+                <div style="color:white;">
+                <h6> About Us</h6>
+                <a href = "about.html"><h5><b><span style="color: #e65100" >Griffins</span></b></h5></a>
+                <p><i><span class="white-text" style="font-size: 20px;" >Contact Us<span class="yellow-text">
+                  <br> Room no:350 Boys hostol</span><br>St.joseph's College of Engineering<br>Chennai.</span></i></p>
+               <center><p style="font-size: 20px;color: white;">"Created By a Group Of Untalented IT Students"</p></center>
+            </div>
+            </center>
+        </div>
+        </div>
+
+      
+	</body>
+</html>

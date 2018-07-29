@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+
+    <meta charset="utf-8">
+    <meta name = "description" content = "Free Basic Programs">
+    <meta name = "keywords" content = "C,C++,Python,Java">
+    <meta name = "author" content = "M.V.Sowndapan">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/materialize.min.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
+        
+    <title>Home | Shadow Kingdom</title>
+		<link rel="icon" type="image/png" href="/images/timg.png">
+	
+	</head>
+
+	<body>
+			
+      <section class = "menu" >
+			  <img id="imgsk" src="/images/name.png">	
+		  </section>
+
+      <center>
+        <section class="cards" style="background-color: #212121;position: fixed;top: 55px;width: 100%;height: 40px;padding-left: 30px;border:groove;border-width: 1px">
+           <a href="/"><button class="btn-small" style = "width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">HOME</button></a>
+           <a href="/library"><button class="btn-small" style = "width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">LIBRARY</button></a>
+           <a href="/aboutus"></a><button class="btn-small" style = "width:100px;height:36px;background-color:#212121;border:none;color:white;font-size: 13px;">ABOUT US</button></a>
+        </section>
+      </center>
+
+	  	 <div class="row" style="padding-top: 150px;">
+        <div style="padding:12px;" class="col l8 offset-l2 m10 offset-m1 s12">
+            <center>
+                <div style="color:white;">
+                <h5> Team </h3>
+                <h5><b><span style="color: #e65100" >Griffins</span></b></h5>
+                <h4 style="font-size:x-large; margin:48px;"><i><span class="white-text" >" Work hard in slience let<span class="yellow-text"> Success </span>be the noise... "</span></i></h4>
+                <h6 style="font-size:20px; line-height:1.5">This site is a living proof of how boring a
+                    <i class="material-icons pink-text">Hostal Life</i> can be...
+                    <br> This site is created to keep ourselves <i class="material-icons orange-text">entertained </i>trying to achive something good.<br> 
+                </h6>
+            </div>
+            </center>
+        </div>
+
+      <center >
+              <div class="carousel products">
+                  <a class="carousel-item" href="#two!">
+                    <div class = "photo">
+                        <center><div style = "height: 130px;"><img src = "/images/somu.jpg" style="width: 100%"></div></center>
+                         <center style= "padding-top:65px; ">
+                            <div class = "container">
+                               <h8 style="color: white ;font-size: 18px;">M.V.Sowndapan<br>Lead Developer</h8>
+                            </div>
+                          </center>
+                    </div>
+                 </a>
+                <a class="carousel-item" href="#three!">
+                  <div class = "photo">
+                        <center><div style = "height: 130px;"><img src = "/images/Leander.png" style="width: 100%"></div></center>
+                         <center style= "padding-top:70px; ">
+                            <div class = "container">
+                               <h8 style="color: white;font-size: 18px;">F.Leander Paul<br>Lead Developer</h8>
+                            </div>
+                          </center>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#four!">
+                   <div class = "photo">
+                        <center><div style = "height: 130px;"><img src = "/images/durgesh.png" style="width: 100%"></div></center>
+                         <center style= "padding-top:65px; ">
+                            <div class = "container">
+                               <h8 style="color: #f06292;font-size: 18px;">R.Durgesh Aswin<br>Java Coder</h8>
+                            </div>
+                          </center>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#five!">
+                   <div class = "photo">
+                        <center><div style = "height: 130px;"><img src = "/images/Raj.png" style="width: 100%"></div></center>
+                         <center style= "padding-top:65px; ">
+                            <div class = "container">
+                               <h8 style="color:#e53935 ;font-size: 19px;">S.RajKumar<br>Python Coder</h8>
+                            </div>
+                          </center>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#five!">
+                   <div class = "photo">
+                        <center><div style = "height: 130px;"><img src = "/images/mugunthan.png" style="width: 100%"></div></center>
+                         <center style= "padding-top:65px; ">
+                            <div class = "container">
+                               <h8 style="color:#ce93d8;font-size: 19px;">P.Mugunthan<br>C,C++ Coder</h8>
+                            </div>
+                          </center>
+                    </div>
+                </a>
+             </div>
+            </center>
+   
+<!-- materilaize,jquery minifieed cdn -->
+<script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+<script src="/javascripts/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //set carousel for particular class
+        //process to initialize materialize corousel 
+          carousel = $('.products').carousel();
+        //infinite execution
+        repeat();
+    });
+//function to repeat the sliding process for every 1.5 sec
+     function repeat() {
+       setTimeout( () => {
+           //next is predifined materialzed class to slide the next pic which is named as carousel-item in carousel class
+            carousel.carousel('next'); 
+         repeat(); 
+         }, 2000
+     )
+     }
+</script>
+
+      <br>
+ 
+      <div style = "width:100%;background-color:darkslategrey;">
+        <div class="row">
+          <div class="col l8 offset-l2 m10 offset-m1 s12">
+              <center>
+                  <div style="color:white;">
+                  <h6> About Us</h6>
+                  <a href = "about.html"><h5><b><span style="color: #e65100" >Griffins</span></b></h5></a>
+                  <p><i><span class="white-text" style="font-size: 20px;" >Contact Us<span class="yellow-text">
+                    <br> Room no:350 Boys hostol</span><br>St.joseph's College of Engineering<br>Chennai.</span></i></p>
+                 <center><p style="font-size: 20px;color: white;">"Created By a Group Of Untalented IT Students"</p></center>
+              </div>
+              </center>
+          </div>
+          </div>
+
+	</body>
+</html>

@@ -1,0 +1,8 @@
+n = int(input("Enter the size of the series: "))
+t = int(input("Enter the First Term of the series: "))
+d = int(input("Enter the Multiplier of the series: "))
+print(t,end=" ")
+while(n>1):
+    t=t*d
+    print(t,end=" ")
+    n = n-1

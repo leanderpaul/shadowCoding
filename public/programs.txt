@@ -1,0 +1,11 @@
+p1 - Hello world
+p2 - print from a to b all numbers
+p3 - print all odd  numbers from a to b
+p4 - take int input and print it 
+p5 - take string input and print it
+p6 - take float input and print it
+p7 - take double input and print it
+p8 - prime number generation
+p9 - find whether n is a prime number
+p10 - print day when n is given using witch case
+

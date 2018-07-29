@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Free Basic Programs">
+  <meta name="keywords" content="C,C++,Python,Java">
+  <meta name="author" content="M.V.Sowndapan">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="/stylesheets/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/error.css">
+
+  <title>Home | Shadow Kingdom</title>
+  <link rel="icon" type="image/png" href="/images/timg.png">
+
+</head>
+
+<body>
+
+  <section class="menu">
+    <img id="imgsk" src="/images/name.png">
+  </section>
+
+  <center>
+    <section class="cards" style="background-color: #212121;position: fixed;top: 55px;width: 100%;height: 40px;padding-left: 30px;border:groove;border-width: 1px">
+      <a href="/">
+        <button class="btn-small" style="width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">HOME</button>
+      </a>
+      <a href="/library">
+        <button class="btn-small" style="width:100px;height:36px;background-color: #212121;border:none;color:white;font-size: 13px;">LIBRARY</button>
+      </a>
+      <a href="/aboutus">
+        <button class="btn-small" style="width:100px;height:36px;background-color:#212121;border:none;color:white;font-size: 13px;">ABOUT US</button>
+      </a>
+    </section>
+  </center>
+
+  <center>
+    <center style="padding-top: 150px;">
+      <form style="padding-left: 30px;padding-top: 50px;background-color: white;width:90%;height:600px;">
+
+        <center>
+          <div>
+            <h1>Shadow Kingdom</h1>
+            <br>
+            <center style="column-rule-color: red;">
+              <hr class="style14">
+            </center>
+            <h2>
+              <span style="color: #e65100">404</span>
+            </h2>
+            <h4 style="font-size:x-large; margin:48px;">
+              <i>
+                <span class="red-text">Error Occurred</span>
+              </i>
+            </h4>
+            
+              <h5 id="url" style="font-size: 20px;color: blue;margin:48px;"></h5>
+           
+            <script src="/javascripts/jquery.js"></script>
+            <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+            <script src="/javascripts/materialize.min.js"></script>
+            <script type="text/javascript">
+              var pageURL = $(location).attr("href");
+              document.getElementById("url").innerHTML = "Page Url :: " + pageURL;
+            </script>
+            <h3 style="color: pink;">Please try again !!! </h3>
+
+      </form>
+      </center>
+    </center>
+   <br>
+   <br>
+
+    <div style = "width:100%;background-color:darkslategrey;padding-top: 40px;">
+      <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <center>
+                <div style="color:white;">
+                <h6> About Us</h6>
+                <a href = "about.html"><h5><b><span style="color: #e65100" >Griffins</span></b></h5></a>
+                <p><i><span class="white-text" style="font-size: 20px;" >Contact Us<span class="yellow-text">
+                  <br> Room no:350 Boys hostol</span><br>St.joseph's College of Engineering<br>Chennai.</span></i></p>
+               <center><p style="font-size: 20px;color: white;">"Created By a Group Of Untalented IT Students"</p></center>
+            </div>
+            </center>
+        </div>
+        </div>
+
+</body>
+
+</html>

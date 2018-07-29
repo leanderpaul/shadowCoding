@@ -1,0 +1,7 @@
+
+s =input("Enter string:")
+#s[::-1] ->It reverses the string using index number(-1)
+if(s==s[::-1]):
+      print("The string is a palindrome")
+else:
+      print("The string isn't a palindrome")

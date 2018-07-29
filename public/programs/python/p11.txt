@@ -1,0 +1,9 @@
+
+i =input("Enter Integer:")
+#i[::-1] ->It reverses the integer using index number(-1)
+if(i==i[::-1]):
+      print("The Integer is a palindrome")
+else:
+      print("The integer isn't a palindrome")
+#uncomment this line to know the working of [::-1]
+#print(i[::-1])

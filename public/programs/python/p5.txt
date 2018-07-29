@@ -1,0 +1,2 @@
+a =input('Enter any String Value : ')
+print(a)

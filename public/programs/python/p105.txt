@@ -1,0 +1,18 @@
+l = []
+n = int(input("Enter the size of the array: "))
+print("Enter the numbers")
+for i in range(0,n):
+    a = int(input())
+    l.append(a)
+max = 0
+for i in range(0,n):
+    if(l[i]>max):
+        max = l[i]
+
+for i in range(0,max):
+    for j in range(0,n):
+        if(l[j]>=max-i):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
